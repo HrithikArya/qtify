@@ -5,12 +5,12 @@ import Logo from "../Logo/Logo";
 import Search from "../Search/Search";
 import Button from "../Button/Button";
 
-function Navbar() {
+function Navbar({ onFeedbackClick }) {
   return (
     <div className={styles.navbar}>
       <Logo />
       <Search />
-      <Button text="Give Feedback" />
+      <Button text="Give Feedback" onClick={onFeedbackClick} />
     </div>
   );
 }

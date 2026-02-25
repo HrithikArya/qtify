@@ -1,0 +1,23 @@
+.carouselWrapper {
+  position: relative;
+}
+.navBtn {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  background: #34c94b;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.leftBtn {
+  left: -18px;
+}
+
+.rightBtn {
+  right: -18px;
+}

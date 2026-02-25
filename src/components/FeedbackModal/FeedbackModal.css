@@ -1,0 +1,54 @@
+.feedbackModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(560px, calc(100% - 32px));
+  background: #121212;
+  border-radius: 12px;
+  border: 1px solid #34c94b;
+  color: #ffffff;
+  padding: 28px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.feedbackModal h2 {
+  margin: 0 0 18px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.feedbackForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedbackForm label {
+  font-size: 14px;
+}
+
+.feedbackForm input,
+.feedbackForm textarea {
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.feedbackForm textarea {
+  resize: vertical;
+  min-height: 90px;
+  margin-bottom: 6px;
+}
